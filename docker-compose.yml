@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  beyondtbot:
+    build: .
+    restart: always
+    environment:
+      - TOKEN=${TOKEN}
