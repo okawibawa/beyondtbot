@@ -62,7 +62,7 @@ func main() {
 
 	bot.Handle("/start", func(c tele.Context) error {
 		commands := fmt.Sprintf(
-			"i merely exist through this commands:\n\n"+
+			"i merely exist through these commands:\n\n"+
 				"%s - show this message\n"+
 				"%s - say hello\n"+
 				"%s - get a random joke\n"+
